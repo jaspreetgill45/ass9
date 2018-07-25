@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
